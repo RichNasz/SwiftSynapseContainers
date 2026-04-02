@@ -13,6 +13,16 @@ per-agent security with no process-level cheats, no shared state, and no host ex
 
 ---
 
+## Documentation
+
+Full API documentation, getting started guides, and how-to articles are published at:
+
+**[https://richnasz.github.io/SwiftSynapseContainers/documentation/swiftsynapsecontainers/](https://richnasz.github.io/SwiftSynapseContainers/documentation/swiftsynapsecontainers/)**
+
+Documentation is generated with DocC and published automatically on every push to `main`.
+
+---
+
 ## Quick Start
 
 ### 1. Add the dependency

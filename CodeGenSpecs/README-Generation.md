@@ -28,19 +28,25 @@ A fourth Documentation badge links to the GitHub Pages DocC site:
 
 The README must cover:
 
-1. **Header** — `# SwiftSynapseContainers` heading, then the three badges on the next line, then the one-line description
+1. **Header** — `# SwiftSynapseContainers` heading, then the four badges on the next line, then the one-line description
 2. **What It Is** — 2-3 sentences on purpose (hardware-enforced sandbox via MicroVM)
-3. **Quick Start** — minimal Package.swift dependency + 5-line usage example
-4. **Trait Selection** — table of all traits, what they enable, when to use each
-5. **@Containerized Macro** — syntax, all arguments with defaults, what it generates
-6. **ContainerConfiguration** — all properties with descriptions and defaults
-7. **SandboxPolicy** — the three modes (strict/standard/permissive) and when to use each
-8. **ContainerPool** — parallel execution pattern with code example
-9. **Secure Injection** — how to inject credentials without exposing in logs
-10. **Integration with SwiftSynapseHarness** — @Containerized composes with @SpecDrivenAgent; Harness features run in host
-11. **Prerequisites** — Swift 6.2+, macOS 26+, container CLI installation
-12. **Repository Links** — SwiftSynapse ecosystem links
-13. **License** — MIT
+3. **Documentation** — a dedicated section with a prose link to the published DocC site:
+   ```
+   Full API documentation is published at:
+   https://richnasz.github.io/SwiftSynapseContainers/documentation/swiftsynapsecontainers/
+   ```
+   This section must appear in the README body — the badge alone is not sufficient.
+4. **Quick Start** — minimal Package.swift dependency + 5-line usage example
+5. **Trait Selection** — table of all traits, what they enable, when to use each
+6. **@Containerized Macro** — syntax, all arguments with defaults, what it generates
+7. **ContainerConfiguration** — all properties with descriptions and defaults
+8. **SandboxPolicy** — the three modes (strict/standard/permissive) and when to use each
+9. **ContainerPool** — parallel execution pattern with code example
+10. **Secure Injection** — how to inject credentials without exposing in logs
+11. **Integration with SwiftSynapseHarness** — @Containerized composes with @SpecDrivenAgent; Harness features run in host
+12. **Prerequisites** — Swift 6.2+, macOS 26+, container CLI installation
+13. **Related Packages** — SwiftSynapse ecosystem links
+14. **License** — MIT
 
 ## Style Rules
 
