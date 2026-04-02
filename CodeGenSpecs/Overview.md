@@ -34,6 +34,8 @@ Specs are organized by **Package Trait**, matching the pattern in SwiftSynapseHa
 
 | Spec | Generates |
 |------|-----------|
+| [Doc-ContainerCatalog.md](Doc-ContainerCatalog.md) | `Sources/SwiftSynapseContainers/SwiftSynapseContainers.docc/SwiftSynapseContainers.md` |
+| [Doc-ContainerGuides.md](Doc-ContainerGuides.md) | `GettingStarted.md`, `ContainerSandboxGuide.md`, `SecureProductionGuide.md`, `HowToContainerizeAnAgent.md`, `HowToUseContainerPool.md` |
 | [README-Generation.md](README-Generation.md) | `README.md` |
 
 ## Generation Rules

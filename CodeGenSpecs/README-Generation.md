@@ -18,6 +18,12 @@ Three badges appear on the line immediately after the `# SwiftSynapseContainers`
 Note: Platform badge says `macOS 26+` only — this package is macOS-exclusive (Virtualization.framework).
 The SwiftSynapse main repo uses iOS/macOS/visionOS; do NOT copy that here.
 
+A fourth Documentation badge links to the GitHub Pages DocC site:
+
+```markdown
+[![Documentation](https://img.shields.io/badge/Documentation-DocC-informational?style=flat-square)](https://richnasz.github.io/SwiftSynapseContainers/documentation/swiftsynapsecontainers/)
+```
+
 ## README Structure
 
 The README must cover:
