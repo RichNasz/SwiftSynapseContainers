@@ -57,13 +57,13 @@ public actor MicroVMHandle {
             try await vm.stop()
             state = .stopped
         } catch {
-            forceStop()
+            await forceStop()
         }
     }
 
     /// Immediately terminates the virtual machine. Used on timeout.
-    public func forceStop() {
-        try? vm.stop()
+    public func forceStop() async {
+        try? await vm.stop()
         state = .stopped
     }
 

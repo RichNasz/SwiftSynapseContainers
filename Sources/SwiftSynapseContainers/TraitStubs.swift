@@ -1,4 +1,7 @@
 // Generated from CodeGenSpecs/Traits.md — Do not edit manually. Update spec and re-generate.
+
+import Foundation
+
 //
 // Provides no-op stubs for every cross-trait type reference.
 // Core Sandbox files reference ContainerPool, SecureInjection, ContainerMonitoring, and

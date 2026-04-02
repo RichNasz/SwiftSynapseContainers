@@ -99,7 +99,7 @@ public actor ContainerPool {
         _ body: @Sendable (ContainerManager) async throws -> T
     ) async throws -> T {
         let manager = await allocate()
-        defer { Task { await self.release(manager) } }
+        defer { Task { self.release(manager) } }
         return try await body(manager)
     }
 }

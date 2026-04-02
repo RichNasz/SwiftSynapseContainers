@@ -1,0 +1,96 @@
+{
+  "originHash" : "b20a97c8b39976693c4fb748d155bbe32113d5d79af1d61ae1e3f159099600a9",
+  "pins" : [
+    {
+      "identity" : "swift-docc-plugin",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/apple/swift-docc-plugin",
+      "state" : {
+        "revision" : "e977f65879f82b375a044c8837597f690c067da6",
+        "version" : "1.4.6"
+      }
+    },
+    {
+      "identity" : "swift-docc-symbolkit",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/swiftlang/swift-docc-symbolkit",
+      "state" : {
+        "revision" : "b45d1f2ed151d057b54504d653e0da5552844e34",
+        "version" : "1.0.0"
+      }
+    },
+    {
+      "identity" : "swift-syntax",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/swiftlang/swift-syntax.git",
+      "state" : {
+        "revision" : "4799286537280063c85a32f09884cfbca301b1a1",
+        "version" : "602.0.0"
+      }
+    },
+    {
+      "identity" : "swiftchatcompletionsdsl",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/RichNasz/SwiftChatCompletionsDSL",
+      "state" : {
+        "branch" : "main",
+        "revision" : "51916abf684e96077d967bf7dd78af7ac7fe3bfd"
+      }
+    },
+    {
+      "identity" : "swiftllmtoolmacros",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/RichNasz/SwiftLLMToolMacros",
+      "state" : {
+        "branch" : "main",
+        "revision" : "9fa3127ec5f1ee5163e451e09b48ae09d7c25fb6"
+      }
+    },
+    {
+      "identity" : "swiftopenresponsesdsl",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/RichNasz/SwiftOpenResponsesDSL",
+      "state" : {
+        "branch" : "main",
+        "revision" : "303e80b513d54c43260c293a425600713d500e2b"
+      }
+    },
+    {
+      "identity" : "swiftopenskills",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/RichNasz/SwiftOpenSkills",
+      "state" : {
+        "branch" : "main",
+        "revision" : "d3770bb2791eba6bc3b95ee3a7c9bc55dc8fcc39"
+      }
+    },
+    {
+      "identity" : "swiftsynapseharness",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/RichNasz/SwiftSynapseHarness",
+      "state" : {
+        "branch" : "main",
+        "revision" : "0364aaf20f787e4346a52c1954913f43c0f293d2"
+      }
+    },
+    {
+      "identity" : "swiftsynapsemacros",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/RichNasz/SwiftSynapseMacros",
+      "state" : {
+        "branch" : "main",
+        "revision" : "58e321d5508cd34120c68421965f0f8c3cab14de"
+      }
+    },
+    {
+      "identity" : "yams",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/jpsim/Yams.git",
+      "state" : {
+        "revision" : "3d6871d5b4a5cd519adf233fbb576e0a2af71c17",
+        "version" : "5.4.0"
+      }
+    }
+  ],
+  "version" : 3
+}

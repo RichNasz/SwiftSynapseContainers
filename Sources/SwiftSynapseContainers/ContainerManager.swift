@@ -3,6 +3,10 @@
 import Foundation
 import Virtualization
 
+// VZVirtualMachineConfiguration is an ObjC class not yet annotated as Sendable.
+// ContainerManager takes exclusive ownership after init, so @unchecked is safe here.
+extension VZVirtualMachineConfiguration: @unchecked @retroactive Sendable {}
+
 #if Sandbox
 
 // MARK: - ContainerManager
@@ -48,7 +52,7 @@ public actor ContainerManager {
     ///   - execute: The agent's `execute(goal:)` implementation, captured from the host actor.
     public func run(
         goal: String,
-        execute: @Sendable (String) async throws -> String
+        execute: @escaping @Sendable (String) async throws -> String
     ) async throws -> ContainerizedResult<String> {
         let wallStart = Date()
 
@@ -206,7 +210,7 @@ private struct TimeoutError: Error {}
 
 private func withTimeout<T: Sendable>(
     seconds: TimeInterval,
-    operation: @Sendable () async throws -> T
+    operation: @escaping @Sendable () async throws -> T
 ) async throws -> T {
     try await withThrowingTaskGroup(of: T.self) { group in
         group.addTask { try await operation() }
