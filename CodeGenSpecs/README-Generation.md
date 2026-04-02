@@ -4,11 +4,25 @@
 
 ---
 
+## Badge Pattern
+
+Match the exact badge style used in the SwiftSynapse ecosystem (flat-square, shields.io).
+Three badges appear on the line immediately after the `# SwiftSynapseContainers` heading:
+
+```markdown
+[![Swift](https://img.shields.io/badge/Swift-6.2%2B-F05138?style=flat-square&logo=swift&logoColor=white)](https://swift.org)
+[![Platform](https://img.shields.io/badge/Platform-macOS%2026%2B-0078D4?style=flat-square&logo=apple&logoColor=white)](#)
+[![License](https://img.shields.io/badge/License-MIT-brightgreen?style=flat-square)](#license)
+```
+
+Note: Platform badge says `macOS 26+` only — this package is macOS-exclusive (Virtualization.framework).
+The SwiftSynapse main repo uses iOS/macOS/visionOS; do NOT copy that here.
+
 ## README Structure
 
 The README must cover:
 
-1. **Header** — package name, one-line description, badges (build, platforms, license)
+1. **Header** — `# SwiftSynapseContainers` heading, then the three badges on the next line, then the one-line description
 2. **What It Is** — 2-3 sentences on purpose (hardware-enforced sandbox via MicroVM)
 3. **Quick Start** — minimal Package.swift dependency + 5-line usage example
 4. **Trait Selection** — table of all traits, what they enable, when to use each

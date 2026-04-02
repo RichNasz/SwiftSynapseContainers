@@ -1,5 +1,9 @@
 # SwiftSynapseContainers
 
+[![Swift](https://img.shields.io/badge/Swift-6.2%2B-F05138?style=flat-square&logo=swift&logoColor=white)](https://swift.org)
+[![Platform](https://img.shields.io/badge/Platform-macOS%2026%2B-0078D4?style=flat-square&logo=apple&logoColor=white)](#)
+[![License](https://img.shields.io/badge/License-MIT-brightgreen?style=flat-square)](#license)
+
 Hardware-enforced MicroVM sandbox isolation for SwiftSynapse agents. Run each agent's
 `execute(goal:)` payload inside an Apple Virtualization.framework virtual machine — true
 per-agent security with no process-level cheats, no shared state, and no host exposure.
